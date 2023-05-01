@@ -1,0 +1,78 @@
+    /*1] Use font family - ("Source Sans Pro", sans-serif) */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    body {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .one1 {
+        width: 1200px;
+        height: 99vh;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 346px;
+    }
+    .card1 {
+        width: 600px;
+        height: 33vh;
+    }
+    .one1 .card1 h6 {
+        padding: 0%;
+        margin: 0%;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .one1 .card1 h5 {
+        padding: 0%;
+        margin: 0%;
+        color: hsl(132deg 38% 50%);
+    }
+    .one1 .card1 p {
+        font-size: 12px;
+    }
+    #one, #four, #five {
+        background-color: hsl(132deg 38% 50%);
+    }
+    #two, #three, #six {
+        padding: 50px;
+        object-fit: fill;
+        width: 500px;
+        height: 217px;
+        padding: 50p;
+        padding-left: 50px;
+    }
+    #one:before {
+        content: "";
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        background-image: url(../images/subscribe-img.png);
+        position: absolute;
+        left: 645px;
+        bottom: 645px;
+        z-index: 1;
+    }
+    #five:before {
+        content: "";
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        background-image: url(../images/subscribe-pack.png);
+        position: absolute;
+        left: 450px;
+        bottom: 10px;
+        z-index: 1;
+    }
+    #four:before {
+        content: "";
+        height: 240px;
+        width: 260px;
+        background-size: cover;
+        background-image: url(../images/subscribe-store.png);
+        position: absolute;
+        left: 1100px;
+        bottom: 370px;
+        z-index: 1;
+    }

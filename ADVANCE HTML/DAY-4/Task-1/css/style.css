@@ -1,0 +1,100 @@
+                                                                                                                    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+                                                                                                                    * {
+                                                                                                                        padding: 0;
+                                                                                                                        margin: 0;
+                                                                                                                        box-sizing: border-box;
+                                                                                                                        font-family: "Montserrat";
+                                                                                                                    }
+                                                                                                                    .header {
+                                                                                                                        background-color: #180554;
+                                                                                                                    }
+                                                                                                                    .nav-item a {
+                                                                                                                        font-size: 110% !important;
+                                                                                                                    }
+                                                                                                                    .welcome-container {
+                                                                                                                        background-image: url("../images/banner-img.png");
+                                                                                                                        background-position: top;
+                                                                                                                        background-repeat: no-repeat;
+                                                                                                                        height: 70vh;
+                                                                                                                        background-size: cover;
+                                                                                                                    }
+                                                                                                                    .welcome-container .container h1 {
+                                                                                                                        position: relative;
+                                                                                                                        background-position: absolute;
+                                                                                                                        background-size: cover;
+                                                                                                                        background-position: center;
+                                                                                                                    }
+                                                                                                                    .about-sec {
+                                                                                                                        background-image: url("../images/bg-img1.png");
+                                                                                                                        position: relative;
+                                                                                                                        background-position: absolute;
+                                                                                                                        background-size: cover;
+                                                                                                                        background-position: center;
+                                                                                                                    }
+                                                                                                                    .abt {
+                                                                                                                        padding: 10% 10%;
+                                                                                                                    }
+                                                                                                                    .live-sec {
+                                                                                                                        background-image: url("../images/bg-img2.png");
+                                                                                                                        position: relative;
+                                                                                                                        background-position: absolute;
+                                                                                                                        background-size: cover;
+                                                                                                                        background-position: center;
+                                                                                                                    }
+                                                                                                                    .liv {
+                                                                                                                        padding: 10% 10%;
+                                                                                                                    }
+                                                                                                                    .text {
+                                                                                                                        font-size: 16px;
+                                                                                                                    }
+                                                                                                                    .research-btn {
+                                                                                                                        border: darkblue 3px solid !important;
+                                                                                                                        transition: .6s ease;
+                                                                                                                    }
+                                                                                                                    .blue:hover {
+                                                                                                                        background-color: darkblue !important;
+                                                                                                                        color: white;
+                                                                                                                    }
+                                                                                                                    .about-mera-sec {
+                                                                                                                        background-color: #0b0bad;
+                                                                                                                        padding: 3% 12% 3% 12%;
+                                                                                                                    }
+                                                                                                                    .donate-btn {
+                                                                                                                        border: rgb(255, 255, 255) 3px solid !important;
+                                                                                                                        background-color: #0b0bad !important;
+                                                                                                                    }
+                                                                                                                    .svg {
+                                                                                                                        color: aqua;
+                                                                                                                    }
+                                                                                                                    .about-mera-ep {
+                                                                                                                        padding-bottom: 3px;
+                                                                                                                        border-bottom: 2.5px solid rgb(255, 255, 255);
+                                                                                                                        width: 62%;
+                                                                                                                    }
+                                                                                                                    .a {
+                                                                                                                        color: #FFF;
+                                                                                                                        text-decoration: none;
+                                                                                                                        display: inline-block;
+                                                                                                                        position: relative;
+                                                                                                                    }
+                                                                                                                    .a:after {
+                                                                                                                        /* background: none repeat scroll 0 0 transparent; */
+                                                                                                                        bottom: 0;
+                                                                                                                        content: "";
+                                                                                                                        display: block;
+                                                                                                                        height: 4px;
+                                                                                                                        left: 50%;
+                                                                                                                        top: 30px;
+                                                                                                                        position: absolute;
+                                                                                                                        background: #FFF;
+                                                                                                                        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                                                                                                                        width: 0;
+                                                                                                                    }
+                                                                                                                    .a:hover:after {
+                                                                                                                        width: 100%;
+                                                                                                                        left: 0;
+                                                                                                                    }
+                                                                                                                     ::selection {
+                                                                                                                        color: rgb(255, 255, 255);
+                                                                                                                        background: rgb(0, 0, 0);
+                                                                                                                    }

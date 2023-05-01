@@ -1,0 +1,38 @@
+/*1] Use font family (open sans) in the task-1 section html*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+html, body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 3px 10px;
+}
+.row {
+    margin: 58px -355px;
+}
+.card {
+    text-align: center;
+}
+.heading {
+    font-size: 49px;
+}
+.heading::before {
+    content: "";
+    background: #1ee3a5;
+    position: absolute;
+    left: 884px;
+    bottom: 665px;
+    height: 5px;
+    width: 168px;
+    z-index: 0;
+}

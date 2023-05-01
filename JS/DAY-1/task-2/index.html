@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>JS-DAY1-TASK2</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <div class="inputfield">
+                <label for="user-value"> Add String here </label>
+                <input type="text" id="user-text-value" onchange="myFun()" required>
+                <p>
+                    <label>String :</label>
+                    <label id="user-text" class="text"></label>
+                </p>
+            </div>
+            <div class="inputfield">
+                <label id="position-text">
+                                Select position of letter to remove from above string.
+                            </label>
+                <input type="number" id="input-number" name="input-number" onchange="change()">
+                <p>
+                    <label> New string : </label>
+                    <label id="text" class="text">
+                </label>
+                </p>
+            </div>
+            <label id="label">Note : By clicking enter in input field you can see the output*</label>
+        </form>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

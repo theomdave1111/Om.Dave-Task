@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>JS-DAY1-TASK3</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container1">
+            <div class="inputfield">
+                <label> Input value A : </label>
+                <input type="number" id="a">
+            </div>
+            <div class="inputfield">
+                <label> Input value B : </label>
+                <input type="number" id="b">
+            </div>
+            <div class="select" id="select">
+                <select name="x" id="dropdown" onchange="myFun()">
+                <option value="select">select</option>
+
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="*">*</option>
+            </select>
+            </div>
+            <div class="ans">
+                <p>Your ANS is : </p>
+                <label id="output"> </label>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

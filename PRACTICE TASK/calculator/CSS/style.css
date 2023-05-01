@@ -1,0 +1,58 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(59, 29, 29, 1) 56%, rgba(131, 35, 35, 1) 100%);
+    }
+    #text-calculator {
+        color: white;
+        opacity: 0.5;
+        margin-top: 180px;
+    }
+    #card {
+        border-radius: 50% !important;
+        height: 918px;
+        width: 40%;
+        opacity: 0.5;
+        background: rgba(255, 255, 255, 0.15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(100px);
+        box-shadow: 0 13px 24px rgba(0, 2, 2, 19.5);
+    }
+    table td {
+        padding: 10px;
+        text-align: center;
+    }
+    #get-values {
+        line-height: 60px !important;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        width: 100%;
+        border-radius: 100px;
+        padding: 8px;
+        opacity: 0.7;
+        background-color: black;
+        color: white;
+    }
+    .estrellas {
+        font-size: 70px;
+    }
+    path {
+        fill: transparent;
+    }
+    .row.d-flex.justify-content-center {
+        position: relative;
+        top: -430px;
+    }
+    path#curve {
+        position: fixed;
+    }
+    text {
+        fill: #ffff;
+        opacity: 0.6;
+    }

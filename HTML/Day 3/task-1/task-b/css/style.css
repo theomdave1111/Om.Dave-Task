@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background: rgb(123, 85, 204);
+    background: linear-gradient(90deg, rgba(123, 85, 204, 1) 0%, rgba(198, 80, 194, 1) 100%);
+}
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 0 20px;
+}
+.main table {
+    border-radius: 10px;
+    background-color: white;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+.main table tbody tr:nth-child(even) {
+    background-color: rgba(216, 211, 211, 0.356);
+}
+.head {
+    color: #f2f2f2;
+}
+th {
+    padding-left: 30px;
+    text-align: left;
+    text-align: center;
+}
+td {
+    padding-left: 30px;
+    padding-right: 70px !important;
+}

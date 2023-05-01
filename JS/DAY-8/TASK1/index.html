@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.foantawesome.com/releases/v6.3.0/css/sharp-regular.css">
+
+
+    <title>Js-Day-8-task </title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <p class="display-4 text-center fw-semibold"><span class="display-1 text-center fw-semibold">E</span>nquiry <span class="display-1 text-center fw-semibold">L</span>ist</p>
+        </div>
+        <div class="row">
+            <div class="col-6 align-items-center justify-content-center d-flex">
+                <div class="form-field w-50">
+                    <input type="text" class="form-control w-50 " placeholder="Search" id="search">
+                </div>
+            </div>
+            <div class="col-6 align-items-center justify-content-center d-flex">
+                <div class="form-field d-inline-flex w-50">
+                    <label class="py-1 me-2">Page Size : </label>
+                    <select name="" id="dataPerPage" class="form-control w-50">
+                        <option value="10" selected>10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 me-2">
+            <div class="col-9 table-responsive">
+                <table id="myTable" class="table table-hover  table-bordered  border-2 border-muted rounded-5  text-center">
+                    <thead class="table-dark fs-4">
+                        <tr id="tr">
+                            <th onclick="sortTable(0)">Name <i class="fa-solid fa-arrow-up-a-z" id="sorting"></i></th>
+                            <th onclick="sortTable(1)">Email <i class="fa-solid fa-arrow-up-a-z"></i></th>
+                            <th onclick="sortTable(1)">Phone <i class="fa-solid fa-arrow-up-a-z"></i></th>
+                            <th onclick="sortTable(0)">Gender <i class="fa-solid fa-arrow-up-a-z"></i></th>
+                            <th onclick="sortTable(0)">Enquiry <i class="fa-solid fa-arrow-up-a-z"></i></th>
+                            <th onclick="sortTable(0)">Message <i class="fa-solid fa-arrow-up-a-z"></i></th>
+                            <th>Action </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody" class="table-secondary fs-5">
+                        <tr id="tr">
+                            <td colspan="7" id="trLoader">
+                                <div class="text-center ">
+                                    <div class="spinner-border" role="status">
+                                        <span class="sr-only  ">Loading...</span>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-3">
+                <div class="container">
+                    <div class="card rounded-4">
+                        <div class="card-header text-center">
+                            <span class="fw-bold fs-3"> <span class="fs-1 text-secondary ">S</span><span>ummary</span> </span>
+                        </div>
+                        <div class="card-body text-dark fw-semibold fs-5">
+                            <p> Total Entry:
+                                <span id="totalData"></span>
+                            </p>
+                            <p>Total Enquiries:
+                                <span id="totalEnquires"></span>
+                            </p>
+                            <p>Total Male Enquiries:
+                                <span id="maleEnquiries"></span>
+                            </p>
+                            <P> Total Female Enquiries:
+                                <span id="femaleEnquires"></span>
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pe-4 my-3 ">
+            <button id="plus" class="btn btn-dark rounded-circle py-0 px-3 text-white fs-1 ">+</button>
+
+            <nav aria-label="Page navigation example" class="d-flex justify-content-end ">
+                <ul class="pagination " id="pagination">
+
+                </ul>
+            </nav>
+        </div>
+        <p id="warning" class="fw-bold fs-4 text-muted"></p>
+
+    </div>
+
+
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark  text-white d-flex justify-content-center">
+                    <p class="modal-titleFS-4 fw-semibold fs-1 " id="staticBackdropLabel">UPDATE REGESTRATION</p>
+                </div>
+                <div class="modal-body  text-dark fw-bold">
+                    <div class="form px-5">
+                        <label for="name" class>Name :</label>
+                        <input type="text" class="form-control" id="updateName" name="updateName">
+
+                        <label for="email">Email :</label>
+                        <input type="email" class="form-control" id="updateEmail" name="updateEmail">
+
+                        <label for="phone">Phone :</label>
+                        <input type="tel" class="form-control" id="updatePhone" name="updatePhone">
+
+                        <label for="gender">Gender :</label>
+                        <select id="updateGender" class="form-control">
+                        <option value="select"  >Please Select Gender</option>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                        <label for="enquiry">Enquiry :</label>
+                        <input type="text" class="form-control" id="updateEnquiry" name="updateEnquiry">
+                        <label for="message">Message :</label>
+                        <input type="text" class="form-control" id="updateMessage" name="updateMessage">
+                    </div>
+                    <p id="warning1" class="fw-bold fs-4 text-muted"></p>
+                </div>
+                <div class="modal-footer d-flex align-items-center justify-content-center ">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-dark" id="NewUpdatedData">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+</body>
+
+</html>

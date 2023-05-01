@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <title>DAY-4 advance html TASK-1</title>
+</head>
+
+<body>
+
+    <!-- Header starts from here -->
+    <header class=" container-fluid header">
+        <!-- taken container fluid bs class -->
+        <div class="container d-flex  align-items-center  py-3">
+            <!-- logo of company -->
+            <div class="logo me-5">
+                <img src="./images/logo-main.png" class="w-100 " alt="">
+            </div>
+            <!-- donate vutton of header -->
+            <div class="ms-auto  ">
+                <input type="button" class="btn  fs-md-5 fs-sm-1 bg-white text-dark rounded-5 px-sm-3 py-md-3 py-sm-2 px-md-5 fw-semibold " value="Donate">
+            </div>
+
+        </div>
+    </header>
+    <!-- navbar starts from here -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+        <div class="container d-flex justify-content-center align-items-center">
+            <!-- toggler button -->
+            <button class="navbar-toggler d-lg-none  border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="">
+                    <i  onclick="myFunction(this)" class="bi bi-list-ul"></i>
+               </span>
+            </button>
+            <div class="collapse navbar-collapse fade-in-left" id="collapsibleNavId">
+                <!-- nav list starts from here -->
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0 flex-wrap text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark fw-semibold fs-5" aria-current="page" href="#about-epilepsy">About Epilepsy <i class="bi bi-chevron-down type-bold"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark fw-semibold fs-5" aria-current="page" href="#Living-with-Epilepsy">Living with Epilepsy <i class="bi bi-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark fw-semibold fs-5" aria-current="page" href="#Research">Research <i class="bi bi-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active  text-dark fw-semibold fs-5" aria-current="page" href="#Children's-Section">Children's Section <i class="bi bi-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark fw-semibold fs-5" aria-current="page" href="#About-MERA">About MERA <span class<i class="bi bi-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark fw-semibold fs-5" aria-current="page" href="#MREA-Blog">MREA Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Section 1 -->
+    <section>
+        <div class="container-fluid welcome-container  ">
+            <div class="container">
+                <!-- heading of section 1 -->
+                <h1 class="display-2 fw-semibold text-white pt-5  ps-md-4">Welcome to </h1>
+                <h1 class="display-2 fw-semibold text-white ps-md-4"> the MREA website</h1>
+                <!-- Paragraph of section 1 -->
+                <p class="fs-3 fw-semibold ps-md-4 pt-3"> Helping people towards a better understanding of epilepsy.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Section 2 -->
+    <section id="about-epilepsy">
+        <div class="container-fluid">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-md-6  p-4">
+                        <p class="text-muted ">Introduction</p>
+                        <h1 class="mb-4">A little bit about us.</h1>
+                        <p class="fw-semibold">As Chairman of the Association I offer you a very warm welcome to our newly developed website. </p>
+                        <p class="fw-semibold">I claim that if you have epilepsy the best place in the world to live is in the Liverpool area. This is because it is the home of two international centres of excellence for the treatment of the condition. The Walton Centre for
+                            Neurology and Neurosurgery caters for the adult population and Liverpool Alder Hey Children, hospital for the youngsters. </p>
+                        <p class="fw-semibold">Our website provides information on many aspects of the condition and we will continue to update it as advances are made on all fronts.</p>
+                        <img src="./images/Screenshot_20230210_021556.png" class="img-fluid" alt="">
+                        <p class="pt-2 m-0 fw-semibold ">Dr Simion Keller </p>
+                        <p class="fw-semibold">Chairman and Director of MERA</p>
+                    </div>
+                    <div class="col-md-6  ">
+                        <img src="./images/img-map.png" class="px-5 img-fluid" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 3 -->
+    <section id="Living-with-Epilepsy">
+        <div class="containerfluid">
+            <div class="row abt-live-row  g-0">
+                <div class="col-md-6 about-sec">
+
+                    <div class="container-fluid about-sec  text-white">
+                        <div class="abt">
+                            <h2 class="mb-4 display-4 fw-semibold">
+                                About Epilepsy
+                            </h2>
+                            <p class="text">Its as common as diabetes and a medical condition like asthma, so why is so little known about epilepsy? With as many as one in 103 people affected, epilepsy is the most ci‘mmon neurological disorder in the UK. Many of you
+                                reading this will have epilepsy yourselves, or will have family members, ftds, work colleagues or neighbours who have epilepsy. </p>
+
+                            <input type="button" class="btn  fs-md-5 fs-sm-1 bg-white text-dark rounded-5 px-sm-3 py-md-3 py-sm-2 px-md-5 fw-semibold mt-3" value="About Epilepsy">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="live col-md-6 live-sec text-white">
+                    <div class="liv">
+                        <h2 class="mb-4 display-4 fw-semibold">
+                            Living with Epilepsy
+                        </h2>
+                        <p class="m-0 text">Epilepsy can effect your life in many ways, but with effective strategies and medication it is possible toim ig lead a full and active life. At MREA, we want to helot to inform and empower,you,so thisayou can control your epilepy,
+                            and n. let it control you. </p>
+                        <p class="pt-1 text">Find out about what treatments are available arici,i-m16? manage your epilepsy. </p>
+
+                        <input type="button" class="btn  fs-md-5 fs-sm-1 bg-white text-dark rounded-5 px-sm-3 py-md-3 py-sm-2 px-md-5 fw-semibold  mt-3" value="Living with Epilepsy">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Section 4 -->
+    <section id="Research">
+        <div class="container-fluid">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-md-6  ">
+                        <img src="./images/img-1.png" class="px-5 img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-6  p-4">
+                        <p class="text-muted mb-3">Research</p>
+                        <h2 class="fw-semibold mb-4  display-5">Cutting edge Research.</h2>
+                        <p class="fw-semibold">There is a great deal of research on epilepsy taking place within Merseyside, much of it undertaken by the Epilepsy Research Group at the University of Liverpool led by Professor Tony Marson. </p>
+                        <p class="fw-semibold">The research ranges from looking t genetic markers for epilepsy through to examining how healthcare systems design. </p>
+                        <p class="fw-semibold"> MREA is at the forefront of this research -find out more.</p>
+                        <input type="button" class=" btn fs-md-5 fs-sm-1  bg-white rounded-5 px-sm-3 py-md-3 py-sm-2 px-md-5 fw-semibold mt-3 research-btn " value="Research">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 5 -->
+    <section id="MREA-Blog">
+        <div class="container-fluid about-mera-sec ">
+            <div class="container  align-items-center justify-content-center  ">
+
+                <h2 class=" text-center main-heading my-3 p-5 text-white">About MREA</h2>
+
+                <div class="row pb-5 text-white ">
+                    <div class="col-md-6 col-xl-3  pb-2 text-center ">
+
+                        <div class="card-body ">
+                            <img src="./images/Annual-report-icon.png" alt=" ">
+                            <h5 class="mt-3 ">Annual Report</h5>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-xl-3 pb-2  text-center">
+
+                        <div class="card-body">
+                            <img src="./images/Brain-icon.png" alt=" ">
+                            <h5 class="mt-3">Governing Body</h5>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-xl-3  pb-2 text-center">
+
+                        <div class="card-body">
+                            <img src="./images/Donate-icon.png" alt=" ">
+                            <h5 class="mt-3">Donate to MREA</h5>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-xl-3 pb-2 text-center">
+
+                        <div class="card-body">
+                            <img src="./images/email-icon.png" alt=" ">
+                            <h5 class="mt-3">Contact MREA</h5>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- Section 6 -->
+    <section id="Children's-Section">
+        <div class="container-fluid">
+            <div class="container py-5">
+                <div class="row py-5">
+
+                    <div class="col-md-6  p-4">
+                        <p class="text-muted mb-3">Children's Section</p>
+                        <h2 class="fw-semibold mb-4  display-5">Educational fun.</h2>
+                        <p class="fw-semibold">If you are child or the parent of a child with epilepsy, we know that it can be difficult to adjust to life - especially if you are recently diagnosed. </p>
+                        <p class="fw-medium">MREA are here to help to educate, inform and entertain you with the Children, Section - we have games, quizzes, an animated stort called 'Molly, Tale' and an Interactive Illustrated Junior Encyclopaedia. </p>
+                        <p class="fw-medium"> Find out more by exploring the Children, Section. </p>
+                        <input type="button" class=" btn fs-md-5 fs-sm-1  bg-white rounded-5 px-sm-3 py-md-3 py-sm-2 px-md-5 fw-semibold mt-3 research-btn " value="Children's Section">
+
+                    </div>
+                    <div class="col-md-6  ">
+                        <img src="./images/img-2.png" class="px-5 img-fluid" alt="">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 7 -->
+    <section id="About-MERA">
+        <div class="container-fluid about-mera-sec ">
+            <div class="container ">
+
+                <div class="row pb-5 text-white ">
+
+                    <div class="col-md-6 col-xl-4   ">
+
+                        <div class="card-body">
+
+                            <h4>MREA</h4>
+                            <p class="mt-3"> Registered Charity Number: 404366 </p>
+                            <p>Email us at: info@epilepsymersey.org.uk</p>
+                            <div class="p-0 d-flex">
+                                <p>Follow us on social media:
+                                    <p class="px-3 svg"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                      </svg> </p>
+
+                                    <p class="px-2 svg"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                              </svg></p>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-xl-2   ">
+
+                        <div class="card-body">
+
+                            <h4>Menu</h4>
+                            <p class="mt-3"> <a href="#" class="a">About Epilepsy</a> </p>
+                            <p>Living with Epilepsy</p>
+                            <p>Research</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-xl-2   ">
+
+                        <div class="card-body">
+
+
+                            <p class="mt-5"> Children's Section</p>
+                            <p>About MREA</p>
+                            <p>MREA Blog </p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-xl-4   ">
+
+                        <div class="card-body">
+
+                            <h4>Donate</h4>
+                            <p class="mt-3"> Donate Today and help MREA make a diffrence.</p>
+                            <input type="button" class=" btn fs-md-5 fs-sm-1   rounded-5 px-sm-3 py-md-3 py-sm-2 px-md-5 fw-semibold mt-3 donate-btn text-white " value="Donate">
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- footer starts from here -->
+    <footer>
+        <div class="container-fluid py-3">
+            <div class="container d-flex ">
+                <p class="text-dark fw-semibold pe-2">© Mersey Region Epilepsy Association 2020 </p> <label class="text-muted"> |  Designed by websitearelovely | Built by JHAVTECH</label>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("bi-x-lg");
+        }
+    </script>
+
+</body>
+
+</html>

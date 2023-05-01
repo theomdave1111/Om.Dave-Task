@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="row">
+            <div class="estrellas fw-semibold  text-center inverso text-uppercase text-white">
+
+                <svg viewBox="-250 -5 1000 250">
+                <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+                <text width="500" >
+                  <textPath xlink:href="#curve" >
+                    CALCULATOR
+                  </textPath>
+                </text>
+              </svg>
+            </div>
+
+
+        </div>
+        <div class="row d-flex justify-content-center ">
+            <div class="card col-4 rounded-4" id="card">
+                <table class="d-flex justify-content-center my-4" cellpa>
+                    <tr>
+                        <td colspan="4">
+                            <input type="text" class="form-control mb-3 fw-semibold fs-1 rounded-circle p-4" height="50" id="display" disabled>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button class="display-2 fw-semibold px-4 " value="7" id="_7" onclick="myfun('7')">7</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="8" id="8" onclick="myfun('8')">8</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="9" id="9" onclick="myfun('9')">9</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="/" id="/" onclick="myfun('/')">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="display-2 fw-semibold px-4 " value="4" id="4" onclick="myfun('4')">4</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="5" id="5" onclick="myfun('5')">5</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="6" id="6" onclick="myfun('6')">6</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="*" id="x" onclick="myfun('*')">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="display-2 fw-semibold px-4 " value="1" id="1" onclick="myfun('1')">1</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="2" id="2" onclick="myfun('2')">2</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="3" id="3" onclick="myfun('3')">3</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="+" id="+" onclick="myfun('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="display-2 fw-semibold px-4 " value="" id="c" onclick="myfunclear()">C</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="0" id="0" onclick="myfun('0')">0</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="=" id="=" onclick="calculate()">=</button></td>
+                        <td><button class="display-2 fw-semibold px-4 " value="-" id="-" onclick="myfun('-')">-</button></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>

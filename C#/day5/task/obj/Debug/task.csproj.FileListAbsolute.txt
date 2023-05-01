@@ -1,0 +1,3 @@
+D:\Projects\om.dave\C#\day5\task\obj\Debug\task.csproj.AssemblyReference.cache
+D:\Projects\om.dave\C#\day5\task\obj\Debug\task.csproj.SuggestedBindingRedirects.cache
+D:\Projects\om.dave\C#\day5\task\obj\Debug\task.csproj.CoreCompileInputs.cache

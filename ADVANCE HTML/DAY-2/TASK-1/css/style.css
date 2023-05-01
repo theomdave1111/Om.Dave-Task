@@ -1,0 +1,8 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-heading {
+    color: #1a1d53 !important;
+}

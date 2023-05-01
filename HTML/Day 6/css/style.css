@@ -1,0 +1,345 @@
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            body {
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+            }
+            .disable-link {
+                pointer-events: none;
+            }
+            nav {
+                padding-top: 8px;
+                width: 199vh;
+                background-color: #343a40;
+            }
+            nav .container {
+                display: inline-flex;
+            }
+            nav .container .navbar-brand {
+                font-size: 22PX;
+                text-decoration: none;
+                color: white;
+            }
+            nav .container .nav-items {
+                padding: 3px 0px
+            }
+            nav .container .nav-items ul {
+                display: inline-flex;
+                list-style: none;
+                margin: 0px;
+                padding: 1px 39px;
+            }
+            nav .container .nav-items ul li:nth-child(2) a {
+                color: gray;
+            }
+            nav .container .nav-items ul li:nth-child(3) a {
+                color: grey;
+            }
+            nav .container .nav-items ul li select {
+                color: rgba(255, 255, 255, 0.521);
+            }
+            nav .container .nav-items ul li a {
+                padding-right: 20px;
+                text-decoration: none;
+                color: white;
+            }
+            .dropdown {
+                background-color: #343a40;
+                color: white;
+                border: none;
+                font-size: 12px;
+            }
+            .form1 {
+                padding-left: 1007px;
+            }
+            nav .container form input {
+                padding: 9px;
+                padding-left: 16px;
+                width: 228px;
+                font-size: 16px;
+                border-radius: 8px;
+            }
+            nav .container form button {
+                font-size: 18px;
+                background-color: #343a40;
+                color: #28a745;
+                border: 1px solid #28a745;
+                border-radius: 5px;
+                padding: 8px 20px;
+                margin-bottom: 10px;
+            }
+            .hello {
+                background-color: #e9ecef;
+                padding: 0%;
+                margin: 0%;
+                box-sizing: border-box;
+            }
+            .hello .hello1 {
+                margin: 0 auto;
+                max-width: 1255PX;
+                padding: 83px 0;
+            }
+            .hello .hello1 .hi {
+                margin: 0;
+                font-weight: 200;
+                font-size: 56px;
+            }
+            .hello .hello1 button {
+                width: 168px;
+                width: 168px;
+                height: 53px;
+                font-size: 21px;
+                color: white;
+                background-color: #007bff;
+                border: 0;
+                border-radius: 9px;
+            }
+            .hello .hello1 button i {
+                font-size: 16px;
+            }
+            .container1 {
+                padding: 0%;
+                margin: 0%;
+                box-sizing: border-box;
+            }
+            .container1 .row {
+                margin: 0 auto;
+                justify-content: center;
+                width: 1255PX;
+                display: flex;
+                height: 655px;
+            }
+            .container1 .row .one {
+                margin: 0;
+                padding: 0;
+            }
+            .container1 .row .one ul {
+                list-style: none;
+                padding: 0;
+                /* margin: 0; */
+                margin-top: 36px;
+                border: 2px solid #dfdfdf;
+                border-radius: 5px;
+            }
+            .container1 .row .one ul li {
+                width: 200px;
+                padding: 12px 63px 12px 17px;
+                border-bottom: 1px solid #d8d8d8;
+                background-color: #f7f7f7;
+            }
+            .container1 .row .two {
+                width: 606px;
+                height: 625px;
+            }
+            .container1 .row .two .six {
+                margin-top: 38px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .container1 .row .two .six .card1 {
+                margin-left: 45px;
+                width: 11%;
+            }
+            .container1 .row .two .six .card1 p {
+                background-color: gray;
+                font-size: 12px;
+                color: white;
+                padding: 30px 6px;
+                width: 100%;
+                margin: 0;
+                text-align: center;
+            }
+            .container1 .row .two .six .card {
+                width: 70%;
+                margin-top: 0px;
+                margin-bottom: 20px;
+                margin-left: 27px;
+            }
+            .container1 .row .two .six .card p {
+                font-size: 18px;
+                margin: 0;
+            }
+            .container1 .row .two .six .card h3 {
+                margin: 0;
+                font-weight: 500;
+            }
+            .container1 .row .three {
+                width: 340px;
+                border: 1px solid #e2e2e2;
+                border-radius: 5px;
+                margin: 0;
+                margin-top: 31PX;
+                height: fit-content;
+            }
+            .container1 .row .three .login-headline {
+                margin: 0;
+                background-color: #f7f7f7;
+                border-bottom: 1px solid #e2e2e2;
+                padding: 17px 21px;
+            }
+            .container1 .row .three .login-headline p {
+                MARGIN: 0;
+                font-weight: 600;
+            }
+            .container1 .row .three form {
+                padding: 13px 26px;
+            }
+            .container1 .row .three form .field {
+                padding: 10px 0;
+            }
+            .container1 .row .three form .field label {
+                font-weight: 300;
+            }
+            .container1 .row .three form .field input {
+                padding: 9px 12px;
+                width: 90%;
+                margin-top: 7px;
+            }
+            .container1 .row .three form .field p {
+                font-size: 12px;
+                margin: 0;
+                margin-top: 5px;
+            }
+            .container1 .row .three form .form-footer span {
+                font-size: 16px;
+            }
+            .container1 .row .three form .form-footer .submit input {
+                background-color: #007bff;
+                border: #007bff;
+                border-radius: 4px;
+                outline: none;
+                color: white;
+                padding: 10px 18px;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+            .container2 .row1 {
+                margin: 0 auto;
+                justify-content: center;
+                width: 1255PX;
+                display: flex;
+                /* define height at last */
+            }
+            .container2 .row1 form {
+                width: 100%;
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #ced4da;
+            }
+            .container2 .row1 form .line, .container2 .row1 form .line2 {
+                display: flex;
+            }
+            .container2 .row1 form .line .field, .container2 .row1 form .line2 .field {
+                display: grid;
+            }
+            .container2 .row1 form .line .field label, .container2 .row1 form .line2 .field label {
+                padding: 10px 5px;
+            }
+            .container2 .row1 form .line .field input {
+                padding: 10px 13px;
+                margin-left: 5px;
+                width: 370px;
+                border: #ced4da 1px solid;
+                border-radius: 4px;
+            }
+            .container2 .row1 form .line .field .username {
+                padding-left: 5px;
+                display: inline-flex;
+            }
+            .container2 .row1 form .line .field .username .fa-solid {
+                background-color: #e9ecef;
+                padding: 10px;
+                border: 1px solid #ced4da;
+                border-radius: 6px 0px 0px 6px;
+                font-weight: 100;
+            }
+            .container2 .row1 form .line .field .username input {
+                margin: 0;
+                border-radius: 0px 2px 2px 0px;
+            }
+            .container2 .row1 form .line2 .field input {
+                padding: 10px 20px;
+                margin-left: 5px;
+                width: 267px;
+                border: #ced4da 1px solid;
+                border-radius: 4px;
+            }
+            #submit {
+                margin-top: 10px;
+                border-radius: 5px;
+                border: 0;
+                color: white;
+                background-color: #007bff;
+                padding: 10px 10px;
+            }
+            .container2 .row2 {
+                margin: 0 auto;
+                justify-content: center;
+                width: 1255PX;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #ced4da;
+            }
+            .container2 .row2 table {
+                margin-top: 10px;
+                border: 1px solid #ced4da;
+                border-collapse: collapse;
+            }
+            .container2 .row2 table td, .container2 .row2 table th {
+                border: 1px solid #ced4da;
+                padding: 10px;
+            }
+            .container2 .row2 table th {
+                text-align: left;
+                width: 172px;
+            }
+            .container2 .row2 table td {
+                width: 245px;
+            }
+            .container2 .row2 table td:nth-child(3) {
+                width: 400px;
+            }
+            .container2 .row2 table td:nth-child(4) {
+                width: 400px;
+            }
+            .container2 .row3 {
+                margin: 0 auto;
+                justify-content: center;
+                width: 1255PX;
+                padding-bottom: 30px;
+                padding-top: 10px;
+                border-bottom: 1px solid #ced4da;
+            }
+            .container2 .row3 .heading {
+                display: flex;
+            }
+            .container2 .row3 .heading h3 {
+                font-size: 32px;
+                font-weight: 500 !important;
+                text-transform: capitalize;
+                margin: 0;
+            }
+            .container2 .row3 .heading p {
+                margin: 0;
+                font-weight: 400;
+            }
+            .container2 .row3 .heading .card-1 button {
+                margin-top: 12px;
+                padding: 10px 14px;
+                background-color: #6c757d;
+                color: #ffffff;
+                border: 0;
+                border-radius: 3px;
+            }
+            .container2 .row3 .heading .card-1 button i {
+                font-size: 10px;
+            }
+            .container2 .row4 {
+                margin: 0 auto;
+                justify-content: center;
+                width: 1255PX;
+                font-size: 14px;
+            }
+            .li {
+                background-color: white !important;
+            }

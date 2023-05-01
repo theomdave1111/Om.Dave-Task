@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <title>JS-DAY4-TASK1</title>
+</head>
+
+<body class="">
+    <div class="container-fluid ">
+
+        <div class="container-fluid d-flex justify-content-center  m-5 ">
+            <div class="container p-0 col-sm-12 col-md-6 col-lg-5">
+                <div class="container-fluid d-flex justify-content-center">
+                    <p class="contact   display-4 fw-semibold ">Shpopeeee app.</p>
+                </div>
+                <div class=" div  "></div>
+                <form class="row g-3 px-5 py-3 m-0" id="form">
+                    <div class="col-12">
+                        <p for="inputEmail4" class="form-p fs-4 fw-semibold">Product <span class="text-danger">*</span></p>
+
+
+                        <select type="button" class="form-select p-3 fs-5 fw-bold" id="product">
+                             
+                            <option id="tshirt" value="100" selected ><span class="fw-semibold"> <img src="./images/shirt.png" alt="" height="18px" class="img">T-shirts</span></option>
+                            <option id="shirt" value="200"><a class="dropdown-item" class="d-inoptionne-flex text-decoration-none "><img src="./images/hawaiian-shirt.png" alt="" height="18px" class="img"> <span class="fw-semibold">Shirts</span></a></option>
+                            <option id="hairdryer" value="300"><a class="dropdown-item" class="d-inoptionne-flex text-decoration-none "><img src="./images/hairdryer.png" alt="" height="18px" class="img"> <span class="fw-semibold">Hair Dryer</span></a></option>
+                            <option id="trimmer" value="400"><a class="dropdown-item" class="d-inoptionne-flex text-decoration-none "><img src="./images/trimmer.png" alt="" height="18px" class="img"> <span class="fw-semibold">Trimmer</span></a></option>
+                            </select>
+
+
+                    </div>
+                    <div class="col-md-12">
+                        <p for="inputEmail4" class="form-p fs-4 fw-semibold">Price </p>
+                        <p id="price">100</p>
+                    </div>
+                    <div class="col-md-12">
+                        <p for="inputEmail4" class="form-p fs-4 fw-semibold">Quantity <span class="text-danger">*</span></p>
+                        <input type="number" min="1" max="10" class="form-control" id="quantity" value="1" required />
+                    </div>
+                    <div class="col-md-12">
+                        <p for="inputEmail4" class="form-p fs-4 fw-semibold">Total Price </p>
+                        <p id="totalprice"> </p>
+                    </div>
+
+                    <div class="col-12  mt-4 d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary px-4 py-2 rounded-3" id="submit">Add to Cart</button>
+                    </div>
+                </form>
+
+
+            </div>
+
+        </div>
+        <div class="container ">
+            <table class="tbl-cart" cellpadding="10" cellspacing="1">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th class='text-right' width="10%"> Price</th>
+                        <th class='text-right' width="5%">Quantity</th>
+                        <th class='text-right' width="10%">Total Price</th>
+                    </tr>
+                </thead>
+                <tbody id="productCardDetails">
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+    <script src="./js/index.js "></script>
+</body>
+
+</html>

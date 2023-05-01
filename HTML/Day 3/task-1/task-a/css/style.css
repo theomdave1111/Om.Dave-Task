@@ -1,0 +1,136 @@
+                                                @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,400&display=swap');
+                                                body {
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    font-family: 'roboto', sans-serif;
+                                                    font-size: 20px;
+                                                    background-color: white;
+                                                }
+                                                .main {
+                                                    display: grid;
+                                                    height: 100vh;
+                                                    place-items: center;
+                                                    background-color: aliceblue;
+                                                }
+                                                .inner {
+                                                    background: #ffff;
+                                                    overflow: hidden;
+                                                    box-sizing: border-box;
+                                                    box-shadow: #33333361 0 0 10px;
+                                                    width: 400PX;
+                                                    border-radius: 5px;
+                                                }
+                                                .inner .head {
+                                                    background-color: black;
+                                                    width: 100%;
+                                                    overflow: hidden;
+                                                    text-align: center;
+                                                    color: white;
+                                                    line-height: 50px;
+                                                    border-bottom: 3px solid black;
+                                                }
+                                                .inner form {
+                                                    padding-left: 32px;
+                                                    padding-right: 41px;
+                                                    padding-top: 27px;
+                                                }
+                                                .inner form .formgroup {
+                                                    margin-bottom: 1rem;
+                                                    margin-top: 10px;
+                                                }
+                                                .inner form .formgroup label {
+                                                    width: 100%;
+                                                    display: block;
+                                                    font-size: 10px;
+                                                    opacity: 0.8;
+                                                    text-transform: uppercase;
+                                                    text-align: left;
+                                                    font-weight: bold;
+                                                }
+                                                .inner form .formgroup .form-control {
+                                                    border: #ccc solid 1px;
+                                                    border-radius: 5px;
+                                                    padding: 10PX;
+                                                    font-size: 15px;
+                                                    box-sizing: border-box;
+                                                    margin-top: 4px;
+                                                    width: 100%;
+                                                    outline: none;
+                                                }
+                                                .inner form .forgot-cls {
+                                                    text-decoration: none;
+                                                    color: rgb(43, 161, 230);
+                                                    font-size: 12px;
+                                                    display: block;
+                                                    text-align: left;
+                                                    margin-bottom: 10px;
+                                                    margin-top: -15px;
+                                                }
+                                                .inner form .lb {
+                                                    background-color: rgb(13, 98, 255);
+                                                    text-align: center;
+                                                    width: 100%;
+                                                    border: none;
+                                                    height: 30px;
+                                                    border-radius: 3px;
+                                                    font-size: 12px;
+                                                    color: white;
+                                                }
+                                                .or {
+                                                    text-align: center;
+                                                    margin-top: 10px;
+                                                    font-size: 12px;
+                                                }
+                                                .social-icon {
+                                                    text-align: center;
+                                                    display: flex;
+                                                    padding-top: 15px;
+                                                    padding-bottom: 25px;
+                                                }
+                                                .fb {
+                                                    width: 50%;
+                                                    height: 30px;
+                                                    background-color: rgb(77, 77, 255);
+                                                    margin-right: 10px;
+                                                    color: white;
+                                                    box-sizing: border-box;
+                                                    border-radius: 2px;
+                                                    border: none;
+                                                }
+                                                .main .inner form .p {
+                                                    font-size: 12px;
+                                                    justify-content: center;
+                                                    display: contents;
+                                                    text-align: center;
+                                                    text-decoration: none;
+                                                    display: flex;
+                                                    align-items: center;
+                                                }
+                                                .main .inner form .p a {
+                                                    margin-left: 5px;
+                                                    text-decoration: none;
+                                                    color: blue;
+                                                    font-weight: bold;
+                                                }
+                                                .gg {
+                                                    width: 50%;
+                                                    height: 30px;
+                                                    background-color: rgba(255, 0, 0, 0.603);
+                                                    margin-left: 10px;
+                                                    color: white;
+                                                    box-sizing: border-box;
+                                                    border-radius: 2px;
+                                                    border: none;
+                                                }
+                                                form::before {
+                                                    content: "";
+                                                    height: 25px;
+                                                    width: 25px;
+                                                    background-color: #00000008;
+                                                    border: 1px solid #d3d3d3bf;
+                                                    border-radius: 50%;
+                                                    position: absolute;
+                                                    left: 942px;
+                                                    bottom: 342px;
+                                                    z-index: 1;
+                                                }

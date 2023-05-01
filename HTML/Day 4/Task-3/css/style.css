@@ -1,0 +1,124 @@
+/*1] Use font family - ("Work Sans", sans-serif") in the task-3 section html
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Work Sans', sans-serif;
+}
+.main {
+    height: 100vh;
+    width: 199vh;
+    background-color: hsl(0deg 0% 100%);
+    display: inline-block;
+}
+.main .head {
+    height: 25vh;
+    text-align: center;
+}
+.main .head .line {
+    padding-top: 50px;
+    margin: 0%;
+    font-size: 46px;
+}
+.main .body {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.main .body .left1 {
+    border-radius: 20px;
+}
+.main .body .right {
+    margin-left: 100px;
+    width: 100%;
+}
+.main .body .right .line {
+    width: 100%;
+    display: inline-flex;
+    border: 1px solid hsl(197deg 51% 74%);
+    border-left: 5px solid hsl(197deg 51% 74%);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-top: 50px;
+    background-color: hsl(197deg 54% 97%);
+}
+.main .body .right .line p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.main .body .right .line img {
+    height: fit-content;
+    padding-top: 15px;
+    padding-right: 25px;
+}
+.onne {
+    padding-top: 25px;
+}
+.line:before {
+    content: "";
+    height: 58px;
+    width: 60px;
+    background-size: cover;
+    background-image: url(../images/title-leftshape.svg);
+    opacity: 0.2;
+    position: absolute;
+    left: 642px;
+    bottom: 853px;
+    z-index: 1;
+}
+.right::before {
+    content: "";
+    height: 58px;
+    width: 60px;
+    background-size: cover;
+    background-image: url(../images/title-leftshape.svg);
+    transform: scaleX(-1);
+    opacity: 0.9;
+    position: absolute;
+    left: 1214px;
+    bottom: 853px;
+    z-index: 1;
+}
+.body::before {
+    content: "";
+    height: 600px;
+    width: 513px;
+    background-color: lightgray;
+    border-radius: 25px;
+    opacity: 0.9;
+    position: absolute;
+    left: 244px;
+    bottom: 8px;
+    z-index: 0;
+}
+.main::before {
+    content: "";
+    height: 662px;
+    width: 609px;
+    background-size: cover;
+    background-image: url(../images/employee-img.png);
+    border-radius: 20px;
+    opacity: 1;
+    position: absolute;
+    left: 287px;
+    bottom: 43px;
+    z-index: 1;
+}
+.head::before {
+    content: "";
+    height: 100px;
+    width: 105px;
+    background-size: cover;
+    background-image: url(../images/title-leftshape.svg);
+    transform: scaleX(-1);
+    opacity: 0.9;
+    position: absolute;
+    left: 1830px;
+    bottom: 253px;
+    z-index: 1;
+}
