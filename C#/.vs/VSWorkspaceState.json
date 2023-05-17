@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\day4"
+    "\\day1",
+    "\\day1\\task1",
+    "\\day3\\task1",
+    "\\day5(2)\\task3",
+    "\\day5(2)\\task4",
+    "\\day5\\task"
   ],
+  "SelectedNode": "\\day1\\task1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

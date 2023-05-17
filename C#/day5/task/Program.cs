@@ -21,7 +21,7 @@ namespace Day5
                 (i.e. No. 2)  and gives the Gun to the next (i.e. No. 3). All bullies do the same until only 1 survives. Which number survives at the last? There are 200 people starting from 1 to 200. 
                 - make a c# program using arrays and for loop
          */
-        static void task1()
+        public void task1()
         {
             List<int> bullies = new List<int>();
             for (int i = 1; i <= 200; i++)
@@ -110,6 +110,7 @@ namespace Day5
                 s.Append(arr[i]);
                 i += 1;
             }
+            
             Console.WriteLine("After Swapping : {0}", s.ToString());
             Console.ReadLine();
         }

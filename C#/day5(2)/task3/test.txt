@@ -1,0 +1,9 @@
+Bill
+=====================================
+Customer ID : 23
+Name        : sdfs
+Number      : 1
+
+Items      Prize       Qty     Total
+--------------------------------------
+Item-0     32         43       1376

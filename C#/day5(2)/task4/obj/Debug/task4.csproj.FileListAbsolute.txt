@@ -1,0 +1,8 @@
+D:\Projects\om.dave\C#\day5(2)\task4\bin\Debug\task4.exe.config
+D:\Projects\om.dave\C#\day5(2)\task4\bin\Debug\task4.exe
+D:\Projects\om.dave\C#\day5(2)\task4\bin\Debug\task4.pdb
+D:\Projects\om.dave\C#\day5(2)\task4\obj\Debug\task4.csproj.AssemblyReference.cache
+D:\Projects\om.dave\C#\day5(2)\task4\obj\Debug\task4.csproj.SuggestedBindingRedirects.cache
+D:\Projects\om.dave\C#\day5(2)\task4\obj\Debug\task4.csproj.CoreCompileInputs.cache
+D:\Projects\om.dave\C#\day5(2)\task4\obj\Debug\task4.exe
+D:\Projects\om.dave\C#\day5(2)\task4\obj\Debug\task4.pdb
